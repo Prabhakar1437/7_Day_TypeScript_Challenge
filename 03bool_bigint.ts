@@ -1,0 +1,45 @@
+//? the boolean type represent a value that can be either true or false. This is different from other data types such as numbers, strings, and objects which have specific values. It is one of the basic primitive types in the language.
+
+//* In JavaScript, Boolean values are created using the keywords true or false. */
+
+let isBoolean: boolean = true; //*TypeScript allows us to specify that a variable should be of type "boolean" by adding ": boolean" after the variable 
+
+let hasStarted: boolean = false; 
+
+//*👉 The type annotation is optional in TypeScript because it can infer the types from the value assigned to it 
+
+//! Number is even or odd
+function checkOddOrEven(num: number): string {
+    if (num % 2 === 0) {
+        return `${num} is even`;
+    } else {
+        return `${num} is odd`;
+    }
+}
+console.log(checkOddOrEven(10)); 
+console.log(checkOddOrEven(15)); 
+
+
+//*BigInt
+
+//? BigInts are a built-in  data type in TypeScript that allows for whole numbers larger than what can be stored in a regular Number datatype.
+
+//?BigInt literals are written by appending the n suffix to an integer literal.
+
+//?In JS we can't read the whole numbers beyond 2 raise to power 53.
+
+
+
+ let maxNumber:bigint = 9007199254740991n;
+console.log(maxNumber);
+
+let anotherBigNumber = BigInt("9007199254740991")
+
+console.log(anotherBigNumber);
+
+
+let sum2 = maxNumber + anotherBigNumber;
+
+console.log(sum2);
+
+let maxNum = (Number as any).MAX_SAFE_INTEGER;
