@@ -2,7 +2,7 @@
 
 
 
-type PersonInfo =[string,number,boolean]
+type PersonInfo =readonly[string,number,boolean]
 
 
 const displayPersonInfo:(person:PersonInfo)=>void = (person:PersonInfo): void => {
