@@ -15,5 +15,25 @@
         "Thapa",
         "tsbuildinfo",
         "Vinod"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#801c46",
+        "activityBar.background": "#801c46",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#48831d",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#801c46",
+        "statusBar.background": "#56132f",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#801c46",
+        "statusBarItem.remoteBackground": "#56132f",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#56132f",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#56132f99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#56132f"
 }
