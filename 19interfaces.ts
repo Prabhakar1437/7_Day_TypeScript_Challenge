@@ -49,3 +49,4 @@ const calculateTotalPrice1 :(product1:Products) => number =(product1:Products):n
 }
 
 console.log(calculateTotalPrice1(product1));
+
