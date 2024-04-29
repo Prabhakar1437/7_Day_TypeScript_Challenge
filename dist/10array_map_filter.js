@@ -1,5 +1,6 @@
+"use strict";
 //*Map & Filter Methods in Array in TS
-var numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 //!Map Method
 //* The Map method creates a new array by applying a provided function to each element of original array. It transforms each element and returns a new array with the transformed values.
 //? 1.Doubling each number
@@ -14,5 +15,5 @@ var numbers = [1, 2, 3, 4, 5];
 // const evenNumbers:number[]=numbers.filter((curElm:number)=>curElm%2===0);
 // console.log('Even Numbers',evenNumbers);
 //?2.Filtering number greater than 3
-var greaterThanThree = numbers.filter(function (curElm) { return curElm > 3; });
+const greaterThanThree = numbers.filter((curElm) => curElm > 3);
 console.log('Greater Than Three', greaterThanThree);

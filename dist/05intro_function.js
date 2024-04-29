@@ -1,3 +1,4 @@
+"use strict";
 //! Function Invocation:
 //* To execute a function, you simply invoke it by using its name followed by  parenthesis.
 //* you can provide arguments(actual value) for the parameters defined in the function declaration.
@@ -14,13 +15,13 @@
 // }
 // greet("Vats",1)
 //*Function return type : To specify the type of function , you can use the colon(:) followed by the desired type after the function's parameter list.
-var greet = function (name, id) {
-    return "Hello ".concat(name, " your id is ").concat(id);
+const greet = (name, id) => {
+    return `Hello ${name} your id is ${id}`;
 };
 console.log(greet("Vats", 1));
 // Palindrome
-var isPalindrome = function (palin) {
-    var myPalin = palin.split("").reverse().join("");
+const isPalindrome = (palin) => {
+    let myPalin = palin.split("").reverse().join("");
     return myPalin === palin;
 };
 console.log(isPalindrome("racecar"));
