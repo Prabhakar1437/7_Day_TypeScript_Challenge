@@ -35,4 +35,7 @@ console.log(persons9.introducesParent());
 
 
 
+//getter and setter functions
+
+
 
