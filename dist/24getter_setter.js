@@ -32,10 +32,3 @@ const persons9 = new Persons3("John", ["Reading", "Writing"]);
 // const persons8:Persons2 =  new Persons1("Jo",56,[ "Reading","Writing" ]);
 persons9.age = 11;
 console.log(persons9.introducesParent());
-
-
-
-//getter and setter functions
-
-
-
